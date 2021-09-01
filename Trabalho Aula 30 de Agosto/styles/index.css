@@ -1,0 +1,134 @@
+body {
+    background: #ccc;
+    margin: 0;
+    font-family: arial, sans-serif;
+}
+
+.cabecalho {
+    background: url('../assets/bg-3.jpg');
+    height: 700px;
+    background-position: right center;
+    background-size: cover;
+}
+.cabecalho nav{
+    margin-right: 20px;
+    padding-top: 20px;
+}
+.cabecalho nav ul {
+    margin: 0;
+    text-align: right;
+}
+
+.cabecalho nav ul li {
+    display: inline-block;
+    list-style: none;
+    padding: 10px;
+    border: 1px solid white;
+    margin-left: 10 px;
+    background: rgba(0, 0, 0, 0.3);
+}
+
+.cabecalho nav a {
+    display: block;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 2px
+}
+
+.cabecalho nav ul li:hover {
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.cabecalho-conteudo h1 {
+    margin-top: 200px;
+    color: white;
+    font-size: 46px;
+    text-shadow: 3px 3px 2px #333;
+    text-align: center;
+}
+.box-sobre{
+    margin: auto;
+    width: 25%;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-style: solid;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-color: white;
+
+}
+.cabecalho-conteudo p {
+    color: white;
+    text-align: center;
+}
+
+main {
+    width: 80%;
+    margin: auto;
+}
+
+#card-imagens {
+    margin-top: 20px;
+    background-color: #fff;
+    text-align: center;
+
+}
+
+.card {
+    margin-top: 20px;
+    margin-bottom: 5px;
+    margin-right: 15px;
+    margin-left: 15px;
+    display: inline-block;
+    cursor: pointer;
+    background-color: #333;
+}
+
+.card img {
+    margin-left: 0px;
+    margin-bottom: 0px;
+    display: inline-block;
+}
+
+.card p {
+    margin: 0;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+}
+
+.apresentacao {
+    margin-top: 20px;
+    background: #fff;
+}
+
+.apresentacao header {
+    padding: 5px;
+    background-color: #fff;
+}
+
+.apresentacao header h2 {
+    margin: 0px;
+    background-color: rgb(240, 233, 233);
+}
+
+.apresentacao p {
+    padding-left: 5px;
+    padding-bottom: 5px;
+}
+
+footer {
+    background-color: #333;
+    height: 100px;
+}
+
+footer p {
+    color: #fff;
+    text-align: center;
+    position: relative;
+    top: 75px;
+}
